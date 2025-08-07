@@ -1,6 +1,7 @@
 * {
     font-family: Copperplate, "Copperplate Gothic Light", fantasy;
 }
+
 .welcomeLabel {
     padding-left: 3%;
     font-size: 30px;
@@ -86,6 +87,34 @@
     height: 10vh;
     width: 100vw;
 
+}
+
+.footerIcons {
+    display: inline-block;
+
+}
+
+#github {
+    background-image: url(https://download.logo.wine/logo/GitHub/GitHub-Logo.wine.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 5%;
+    width: 45px;
+    height: 45px;
+
+}
+
+#linkedin {
+    background-image: url(https://images.seeklogo.com/logo-png/38/2/linkedin-black-icon-logo-png_seeklogo-387472.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 5%;
+    width: 50px;
+    height: 50px;
 }
 
 .breakDiv {
