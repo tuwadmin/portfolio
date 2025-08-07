@@ -6,20 +6,100 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
 </head>
-<body>
+<header>
+    <nav class="navBar">
+        <label class="welcomeLabel">Sam</label>
+        <ul class="navList">
+            <label class="navItems">About Me</label>
+            <label class="navItems">Skills</label>
+            <label class="navItems">Projects</label>
+            <label class="navItems">Testimonials</label>
+            <label class="navItems">Contact Me</label>
+        </ul>
+    </nav>
+</header>
+<body class="bodySection"> 
+    <div class="heroSection"> 
+        <div class="intro"> Where would you like to begin? </div>
+    </div>
+<div class="breakDiv">
 
-  <div class="game-board">
+</div>
 
-    <img src="https://www.clipartmax.com/png/full/364-3646661_super-mario-clouds-png-image-transparent-library-super-mario-3-clouds.png" class="clouds" alt="">
-    <img src="https://art.pixilart.com/dbeec79e08f0dac.gif" class="mario">
-    <img src="https://i.pinimg.com/736x/55/d5/26/55d52606fbca836d8ef8d03ace8c78eb.jpg" class="pipe" alt="">
-    <span class="game_over"></span>
-   
-  </div>
+    <div class="skillsSection">
+        <center>
+        <div class="skills">
+            <p> Skill 1 </p>
+        </div>
+                <div class="skills">
+            <p> Skill 2 </p>
+        </div>
+                <div class="skills">
+            <p> Skill 3 </p>
+        </div>
+        </center>
+    </div>
+<div class="breakDiv">
 
+</div>
+    <div class="projectsSection">
+        <center>
+        <div class="projects">
+            <p> Project 1 </p>
+        </div>
+                <div class="projects">
+            <p> Project 2 </p>
+        </div>
+                <div class="projects">
+            <p> Project 3 </p>
+        </div>
+        </center>
+    </div>
+<div class="breakDiv">
+
+</div>
+    <div class="testimonialCarousel">
+        <section class="container">
+        <!-- title -->
+        <div class="title">
+          <h2>Testimonials</h2>
+          <div class="underline"></div>
+        </div>
+        <!-- review -->
+        <article class="review">
+          <div class="img-container">
+            <img src="person-1.jpeg" id="person-img" alt="" />
+          </div>
+          <h4 id="author">sara jones</h4>
+          <p id="job">ux designer</p>
+          <p id="info">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+            asperiores debitis incidunt, eius earum ipsam cupiditate libero?
+            Iste, doloremque nihil?
+          </p>
+          <!-- prev next buttons-->
+          <div class="button-container">
+            <button class="prev-btn">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="next-btn">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </article>
+      </section>
+    </div>
+<div class="breakDiv">
+
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="script.js"></script>
 </body>
-<footer>
+<footer class="footerSection">
+    
 </footer>
 </html>
